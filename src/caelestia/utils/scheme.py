@@ -193,7 +193,7 @@ class Scheme:
         try:
             self._colours = read_colours_from_file(custom_scheme_path)
         except Exception:
-            # Fallback to dynamic scheme if their is no user scheme for the current wallpaper.
+            # Fallback to dynamic scheme if there is no user scheme for the current wallpaper.
             if self.notify:
                 notify(
                     "-u",
