@@ -1,4 +1,5 @@
 reinstall:
+	@ rm dist/*.whl
 	@ sudo rm -r /usr/lib/python3.14/site-packages/caelestia*
 	@ sudo rm /usr/bin/caelestia
 	@ python -m build --wheel
